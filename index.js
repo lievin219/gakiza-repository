@@ -8,16 +8,16 @@ let diviSION=document.getElementById("divide")
 let multiplication =document.getElementById('multiply')
 
     function additioning(){
-         result.innerText=firstnumber.value +secondnumber.value
+         result.innerText=firstnumber +secondnumber
     }
     function substact(){
-        result.innerText=firstnumber.value-secondnumber.value
+        result.innerText=firstnumber-secondnumber
    }
    function multiply(){
-    result.innerText=firstnumber.value*secondnumber.value
+    result.innerText=firstnumber*secondnumber
 }
 function divisioning(){
-    result.innerText=firstnumber.value/secondnumber.value
+    result.innerText=firstnumber/secondnumber
 }
     
 addition.addEventListener('click',additioning)
