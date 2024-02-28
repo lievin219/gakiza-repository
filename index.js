@@ -1,5 +1,5 @@
- let firstnumber=document.getElementById("first")
- let secondnumber=document.getElementById("second")
+ let firstnumber=parseInt(document.getElementById("first"))
+ let secondnumber=parseInt(document.getElementById("second"))
  let buttoni=document.getElementById('button')
  let result=document.getElementById('result')
 let addition=document.getElementById("add")
@@ -8,7 +8,7 @@ let diviSION=document.getElementById("divide")
 let multiplication =document.getElementById('multiply')
 
     function additioning(){
-         result.innerText=firstnumber.value+secondnumber.value
+         result.innerText=firstnumber.value +secondnumber.value
     }
     function substact(){
         result.innerText=firstnumber.value-secondnumber.value
