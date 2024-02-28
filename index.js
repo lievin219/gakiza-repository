@@ -1,5 +1,5 @@
- let firstnumber=parseInt(document.getElementById("first"))
- let secondnumber=parseInt(document.getElementById("second"))
+ let firstnumber=parseInt(document.getElementById("first").value)
+ let secondnumber=parseInt(document.getElementById("second").value)
  let buttoni=document.getElementById('button')
  let result=document.getElementById('result')
 let addition=document.getElementById("add")
